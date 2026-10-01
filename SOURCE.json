@@ -2,7 +2,7 @@
   "repository": "Offline-Protocol/offline-protocol-agent-plugins",
   "source": {
     "repository": "Offline-Protocol/CLI",
-    "commit": "a282d74165614a2cf305ce2a5618915acdd78461"
+    "commit": "f9cff8e6238aeabe08ce28b479e4cc3da6b075a6"
   },
   "cliPackage": "@offline-protocol/cli@0.2.6",
   "generator": "scripts/export-agent-plugins.mjs",
@@ -37,7 +37,7 @@
     "plugins/offline-protocol/.claude-plugin/plugin.json": "7ac5c636b85db49a0e9d30e7b5a2e48d650302ff12576d5f64c9cb0bfb57b1b2",
     "plugins/offline-protocol/.codex-plugin/plugin.json": "abf4a1d6ce01b95f7de035b39e6ab35caf95a88b8f61d4e990130d03110dfcdd",
     "plugins/offline-protocol/.mcp.json": "8d7b97a85dd608b0ead58758ccc23f7c48b9692f0abcb522d7ba99e077b3981a",
-    "plugins/offline-protocol/README.md": "9342c055b48e92a4ef71cad94169f3fa7e28fbfaf9fefa45da57a3658ff11d89",
+    "plugins/offline-protocol/README.md": "7bb132de5ced0da9093ca2307db00a2a0de0271dfbfba212d4b36c7c45ac2ee8",
     "plugins/offline-protocol/assets/logo.png": "8268382b80cd9e25a1509a1accdde7feae2233fd91bd5f041069d7fffcd8ade5",
     "plugins/offline-protocol/mcp.json": "8a81b80a7a9e0d6d047c0d5cca00d7958ea2d95fdaa91459cc5d122d570e2765",
     "plugins/offline-protocol/plugin.json": "c5549a589ba78f91f4e8b113405eee89dbd7802ebd3fd9b5ed977b6d33647497",

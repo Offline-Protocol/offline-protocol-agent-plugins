@@ -30,4 +30,13 @@ In Claude Code, Codex and Cursor the skill and the local MCP tools both load. In
 
 ## Privacy and security
 
-The plugin sends no telemetry. Your agent client and model provider receive tool inputs and results under their own terms. Privacy policy: https://www.offlineprotocol.com/privacy. Security reports: security@offlineprotocol.com.
+The plugin sends no telemetry. Your agent client and model provider receive tool inputs and results under their own terms.
+
+- Privacy policy: https://www.offlineprotocol.com/privacy
+- Terms of service: https://www.offlineprotocol.com/legal/developer-terms
+- Security reports: security@offlineprotocol.com
+
+## Support
+
+- Documentation: https://www.offlineprotocol.com/docs/tools/overview
+- Support: support@offlineprotocol.com
