@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "offline-protocol": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@offline-protocol/cli@0.2.6",
+        "mcp",
+        "serve"
+      ]
+    }
+  }
+}

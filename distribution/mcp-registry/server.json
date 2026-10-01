@@ -1,0 +1,41 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.offlineprotocol/cli",
+  "title": "Offline Protocol",
+  "description": "Find Offline Protocol SDK packages, read integration guides, plan and scaffold local apps.",
+  "version": "0.2.6",
+  "websiteUrl": "https://www.offlineprotocol.com/docs/tools/overview",
+  "repository": {
+    "url": "https://github.com/Offline-Protocol/offline-protocol-agent-plugins",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://www.offlineprotocol.com/assets/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "@offline-protocol/cli",
+      "version": "0.2.6",
+      "runtimeHint": "npx",
+      "transport": {
+        "type": "stdio"
+      },
+      "packageArguments": [
+        {
+          "type": "positional",
+          "value": "mcp"
+        },
+        {
+          "type": "positional",
+          "value": "serve"
+        }
+      ]
+    }
+  ]
+}

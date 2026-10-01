@@ -1,0 +1,11 @@
+name: Offline Protocol (hosted)
+version: 0.2.4
+schema: v1
+mcpServers:
+  - name: Offline Protocol (hosted)
+    type: streamable-http
+    url: https://mcp.offlineprotocol.com/mcp
+    requestOptions:
+      headers:
+        Authorization: Bearer ${{ secrets.OFFLINE_PROTOCOL_API_KEY }}
+        x-app-id: ${{ secrets.OFFLINE_PROTOCOL_APP_ID }}

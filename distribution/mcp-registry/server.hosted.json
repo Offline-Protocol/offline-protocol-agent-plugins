@@ -1,0 +1,43 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.offlineprotocol/hosted",
+  "title": "Offline Protocol (hosted)",
+  "description": "Offline Protocol package, workflow and integration guidance over HTTPS. Needs an app API key.",
+  "version": "0.2.4",
+  "websiteUrl": "https://www.offlineprotocol.com/docs/tools/overview",
+  "icons": [
+    {
+      "src": "https://offlineprotocol.com/assets/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.offlineprotocol.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Offline Protocol application API key as a bearer token. Organization keys are not accepted.",
+          "value": "Bearer {api_key}",
+          "isRequired": true,
+          "isSecret": true,
+          "variables": {
+            "api_key": {
+              "description": "Application API key from the Offline Protocol developer portal",
+              "isRequired": true,
+              "isSecret": true
+            }
+          }
+        },
+        {
+          "name": "x-app-id",
+          "description": "Application id that owns the API key. It must match the key's application.",
+          "isRequired": true,
+          "isSecret": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "model": "grok-4.7",
+  "input": [
+    {
+      "role": "user",
+      "content": "Which Offline Protocol packages support a local React Native handoff? Use the Offline Protocol tools and cite the package names they return."
+    }
+  ],
+  "tools": [
+    {
+      "type": "mcp",
+      "server_url": "https://mcp.offlineprotocol.com/mcp",
+      "server_label": "offline_protocol",
+      "server_description": "Offline Protocol developer MCP: SDK packages, workflows, skills and integration planning. Read-only guidance; no device access.",
+      "authorization": "YOUR_OFFLINE_PROTOCOL_APPLICATION_API_KEY",
+      "headers": {
+        "x-app-id": "YOUR_OFFLINE_PROTOCOL_APPLICATION_ID"
+      },
+      "allowed_tools": [
+        "list_packages",
+        "get_package",
+        "search_packages",
+        "search_capabilities",
+        "search_workflows",
+        "search_examples",
+        "search_skills",
+        "list_workflows",
+        "get_workflow",
+        "list_skills",
+        "get_skill",
+        "resolve_packages",
+        "get_template",
+        "generate_architecture",
+        "preview_scaffold"
+      ]
+    }
+  ]
+}

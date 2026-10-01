@@ -1,0 +1,13 @@
+{
+  "name": "offline-protocol",
+  "owner": {
+    "name": "Offline Protocol"
+  },
+  "plugins": [
+    {
+      "name": "offline-protocol",
+      "source": "./plugins/offline-protocol"
+    }
+  ],
+  "description": "Developer integrations for Offline Protocol SDKs and workflows."
+}

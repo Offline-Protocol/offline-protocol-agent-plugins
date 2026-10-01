@@ -1,0 +1,12 @@
+name: Offline Protocol
+version: 0.2.6
+schema: v1
+mcpServers:
+  - name: Offline Protocol
+    type: stdio
+    command: npx
+    args:
+      - "-y"
+      - "@offline-protocol/cli@0.2.6"
+      - mcp
+      - serve

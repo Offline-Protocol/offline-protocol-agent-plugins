@@ -1,0 +1,17 @@
+{
+  "name": "offline-protocol",
+  "version": "0.1.0",
+  "description": "Build local device workflows with Offline Protocol. Find SDK packages, read integration guides, plan an implementation, and scaffold a project.",
+  "contextFileName": "plugins/offline-protocol/skills/build-with-offline-protocol/SKILL.md",
+  "mcpServers": {
+    "offline-protocol": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@offline-protocol/cli@0.2.6",
+        "mcp",
+        "serve"
+      ]
+    }
+  }
+}

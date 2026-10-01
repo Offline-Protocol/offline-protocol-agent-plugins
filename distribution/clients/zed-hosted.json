@@ -1,0 +1,11 @@
+{
+  "context_servers": {
+    "offline-protocol-hosted": {
+      "url": "https://mcp.offlineprotocol.com/mcp",
+      "headers": {
+        "Authorization": "Bearer YOUR_APPLICATION_API_KEY",
+        "x-app-id": "YOUR_APPLICATION_ID"
+      }
+    }
+  }
+}

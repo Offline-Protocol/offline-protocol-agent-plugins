@@ -1,0 +1,21 @@
+{
+  "name": "offline-protocol",
+  "owner": {
+    "name": "Offline Protocol",
+    "email": "support@offlineprotocol.com"
+  },
+  "metadata": {
+    "description": "Developer integrations for Offline Protocol SDKs and workflows."
+  },
+  "plugins": [
+    {
+      "name": "offline-protocol",
+      "source": "./plugins/offline-protocol",
+      "description": "Build local device workflows with Offline Protocol. Find SDK packages, read integration guides, plan an implementation, and scaffold a project.",
+      "logo": "assets/logo.png",
+      "keywords": ["offline-protocol", "mcp", "sdk", "mesh", "offline-id"],
+      "homepage": "https://www.offlineprotocol.com/docs/tools/overview",
+      "license": "Apache-2.0"
+    }
+  ]
+}
