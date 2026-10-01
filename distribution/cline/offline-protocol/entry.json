@@ -10,6 +10,7 @@
     "url": "https://offlineprotocol.com"
   },
   "homepage": "https://www.offlineprotocol.com/docs/tools/overview",
+  "repo": "https://github.com/Offline-Protocol/offline-protocol-agent-plugins",
   "icon": "./icon.svg",
   "tags": [
     "software",

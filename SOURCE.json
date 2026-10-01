@@ -2,7 +2,7 @@
   "repository": "Offline-Protocol/offline-protocol-agent-plugins",
   "source": {
     "repository": "Offline-Protocol/CLI",
-    "commit": "3fc3505687e421429e8516547b4804d44c65916b"
+    "commit": "a282d74165614a2cf305ce2a5618915acdd78461"
   },
   "cliPackage": "@offline-protocol/cli@0.2.6",
   "generator": "scripts/export-agent-plugins.mjs",
@@ -29,18 +29,18 @@
     "distribution/clients/zed-hosted.json": "ebb83b967a3f34e73e33ce9d195dbc66f100e1d4739c2d9d20d7cd9d90f37fea",
     "distribution/clients/zed.json": "ff14e4c8f234378d97da9df562bac9dde5eee16797a6199a36fe4b5a99b8b8aa",
     "distribution/cline/logo-400.png": "3e04c6a8e4cdfc73e94a1dd7b2eb73ae6c94327f1fe91b83ac0623575611e16e",
-    "distribution/cline/offline-protocol/entry.json": "8f84ebd8476537e842e9e61a017750a600835101daee700c7418b9fbf4b91cc3",
+    "distribution/cline/offline-protocol/entry.json": "bec28cef9a414e9bb87b8b025127ab155a901f2be55909c5ecc94c97d6e6f4aa",
     "distribution/cline/offline-protocol/icon.svg": "2ede07df9324f8281339318b728267f19a01d5d23fb351c191612062a745eb43",
-    "distribution/mcp-registry/server.hosted.json": "46ef2fd28d3884ff11f337d2b4508d4cfa5ba0016a6e7cfc10b646045ee3da6d",
+    "distribution/mcp-registry/server.hosted.json": "805c4d63d0803c393ac390a6d2cae0a6255f79d08d3b33aabfeb8a18fa5c6d3f",
     "distribution/mcp-registry/server.json": "a4613017b117767f4aa77b70449788882df7c09118c1593d2f8b38d8d9ff523b",
-    "gemini-extension.json": "5f914679b1747e5bfc97f12117a99125db2cb605b086d09bbaa7548305741f36",
-    "plugins/offline-protocol/.claude-plugin/plugin.json": "3b3c171cc5c3270c0fad95930eddfc2694cea01a1ddbb3cb9cfd94c5fe8aeb08",
-    "plugins/offline-protocol/.codex-plugin/plugin.json": "98ebec58da0c3c47304aac8fc3ff4592ba9b8acf02f72be6a6196f8d29f3c5a1",
+    "gemini-extension.json": "0637dc73eb3b1be0442e00eb226b9122e2d6591861ab77423545b08cf31bd77c",
+    "plugins/offline-protocol/.claude-plugin/plugin.json": "7ac5c636b85db49a0e9d30e7b5a2e48d650302ff12576d5f64c9cb0bfb57b1b2",
+    "plugins/offline-protocol/.codex-plugin/plugin.json": "abf4a1d6ce01b95f7de035b39e6ab35caf95a88b8f61d4e990130d03110dfcdd",
     "plugins/offline-protocol/.mcp.json": "8d7b97a85dd608b0ead58758ccc23f7c48b9692f0abcb522d7ba99e077b3981a",
     "plugins/offline-protocol/README.md": "9342c055b48e92a4ef71cad94169f3fa7e28fbfaf9fefa45da57a3658ff11d89",
     "plugins/offline-protocol/assets/logo.png": "8268382b80cd9e25a1509a1accdde7feae2233fd91bd5f041069d7fffcd8ade5",
     "plugins/offline-protocol/mcp.json": "8a81b80a7a9e0d6d047c0d5cca00d7958ea2d95fdaa91459cc5d122d570e2765",
-    "plugins/offline-protocol/plugin.json": "97625b64074f71648c190c642d02d81def6bd03b397cfce3872e2dde4a503b84",
+    "plugins/offline-protocol/plugin.json": "c5549a589ba78f91f4e8b113405eee89dbd7802ebd3fd9b5ed977b6d33647497",
     "plugins/offline-protocol/skills/build-with-offline-protocol/SKILL.md": "7cdd4e979925b49988dfa9326aceefb982a94f68fad949198342b2a8bc5a47ca"
   }
 }

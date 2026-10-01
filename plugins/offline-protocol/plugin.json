@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "offline-protocol",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Build local device workflows with Offline Protocol. Find SDK packages, read integration guides, plan an implementation, and scaffold a project.",
   "author": {
     "name": "Offline Protocol",
