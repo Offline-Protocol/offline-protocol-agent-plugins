@@ -1,6 +1,6 @@
 {
   "name": "offline-protocol",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Build local device workflows with Offline Protocol. Find SDK packages, read integration guides, plan an implementation, and scaffold a project.",
   "author": {
     "name": "Offline Protocol",
@@ -14,7 +14,7 @@
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Offline Protocol",
-    "shortDescription": "Choose Offline Protocol SDK packages, read integration guides and scaffold projects.",
+    "shortDescription": "Build apps that work offline",
     "longDescription": "Build with Offline Protocol from Codex. A local MCP server from the published Offline Protocol CLI lets the agent search packages and workflows, resolve installs for React Native and web targets, read integration guides, and scaffold or integrate projects. It does not discover or control physical devices.",
     "developerName": "Offline Protocol",
     "category": "Productivity",
@@ -22,6 +22,8 @@
     "websiteURL": "https://www.offlineprotocol.com/docs/tools/overview",
     "privacyPolicyURL": "https://www.offlineprotocol.com/privacy",
     "termsOfServiceURL": "https://www.offlineprotocol.com/legal/developer-terms",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
     "defaultPrompt": [
       "Add an encrypted local handoff to this React Native app with Offline Protocol and explain the device requirements.",
       "Which Offline Protocol packages fit my existing web app's email sign-in?"

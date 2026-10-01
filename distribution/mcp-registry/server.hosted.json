@@ -2,12 +2,12 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.offlineprotocol/hosted",
   "title": "Offline Protocol (hosted)",
-  "description": "Offline Protocol package, workflow and integration guidance over HTTPS. Needs an app API key.",
-  "version": "0.2.4",
+  "description": "Offline Protocol packages, workflows and integration guides over HTTPS. Read-only.",
+  "version": "0.2.6",
   "websiteUrl": "https://www.offlineprotocol.com/docs/tools/overview",
   "icons": [
     {
-      "src": "https://offlineprotocol.com/assets/icon-512.png",
+      "src": "https://www.offlineprotocol.com/assets/icon-512.png",
       "mimeType": "image/png",
       "sizes": ["512x512"]
     }
@@ -38,6 +38,10 @@
           "isSecret": false
         }
       ]
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.offlineprotocol.com/public/mcp"
     }
   ]
 }
