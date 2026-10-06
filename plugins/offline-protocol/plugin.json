@@ -8,5 +8,17 @@
     "email": "support@offlineprotocol.com"
   },
   "homepage": "https://www.offlineprotocol.com/docs/tools/overview",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "keywords": [
+    "offline-first",
+    "bluetooth",
+    "mesh",
+    "react-native",
+    "identity",
+    "mcp",
+    "offline-protocol",
+    "peer-to-peer",
+    "local-first",
+    "sync"
+  ]
 }
