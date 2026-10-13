@@ -8,7 +8,7 @@ These tools help you build an application. They do not discover nearby devices, 
 
 | | Local (default) | Hosted |
 | --- | --- | --- |
-| Runs | `npx -y @offline-protocol/cli@0.2.6 mcp serve` on your machine, over stdio | `https://mcp.offlineprotocol.com/mcp` over Streamable HTTP |
+| Runs | `npx -y @offline-protocol/cli@0.2.7 mcp serve` on your machine, over stdio | `https://mcp.offlineprotocol.com/mcp` over Streamable HTTP |
 | Needs | Node.js 18 or later with npx. The first run downloads the pinned CLI from npm | An Offline Protocol application API key and its matching application ID. Organization keys are rejected |
 | Account | None | Offline Protocol developer account |
 | Tools | All 18 tools | Excludes `scaffold_project`, `integrate_packages` and `init_project` |
@@ -73,7 +73,7 @@ cursor-agent --plugin-dir ./plugins/offline-protocol
 **MCP server only.** Put the contents of [`mcp-stdio.json`](mcp-stdio.json) in `.cursor/mcp.json` for one project, or in `~/.cursor/mcp.json` for all projects. If the file already exists, merge the `offline-protocol` entry into `mcpServers`. You can also open this install link in Cursor:
 
 ```text
-cursor://anysphere.cursor-deeplink/mcp/install?name=offline-protocol&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyIteSIsIkBvZmZsaW5lLXByb3RvY29sL2NsaUAwLjIuNiIsIm1jcCIsInNlcnZlIl19
+cursor://anysphere.cursor-deeplink/mcp/install?name=offline-protocol&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyIteSIsIkBvZmZsaW5lLXByb3RvY29sL2NsaUAwLjIuNyIsIm1jcCIsInNlcnZlIl19
 ```
 
 Check it with the Cursor CLI (no Cursor login is needed for these two commands):
@@ -108,19 +108,19 @@ VS Code reads MCP servers from `mcp.json` with a top-level `servers` object. Use
 Add to your user profile from a terminal:
 
 ```sh
-code --add-mcp '{"name":"offline-protocol","type":"stdio","command":"npx","args":["-y","@offline-protocol/cli@0.2.6","mcp","serve"]}'
+code --add-mcp '{"name":"offline-protocol","type":"stdio","command":"npx","args":["-y","@offline-protocol/cli@0.2.7","mcp","serve"]}'
 ```
 
 Or open this install link, which asks VS Code to install the same server:
 
 ```text
-vscode:mcp/install?%7B%22name%22%3A%22offline-protocol%22%2C%22type%22%3A%22stdio%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40offline-protocol%2Fcli%400.2.6%22%2C%22mcp%22%2C%22serve%22%5D%7D
+vscode:mcp/install?%7B%22name%22%3A%22offline-protocol%22%2C%22type%22%3A%22stdio%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40offline-protocol%2Fcli%400.2.7%22%2C%22mcp%22%2C%22serve%22%5D%7D
 ```
 
 On web pages where `vscode:` links are not clickable (such as GitHub READMEs), use the web redirect, which opens the same install link:
 
 ```text
-https://vscode.dev/redirect/mcp/install?name=offline-protocol&config=%7B%22type%22%3A%22stdio%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40offline-protocol%2Fcli%400.2.6%22%2C%22mcp%22%2C%22serve%22%5D%7D
+https://vscode.dev/redirect/mcp/install?name=offline-protocol&config=%7B%22type%22%3A%22stdio%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40offline-protocol%2Fcli%400.2.7%22%2C%22mcp%22%2C%22serve%22%5D%7D
 ```
 
 For one workspace, copy [`vscode.json`](vscode.json) to `.vscode/mcp.json` (merge into `servers` if the file exists). Workspace servers start once you trust the workspace; user-profile servers ask for trust on first start. Run **MCP: List Servers** to start or inspect `offline-protocol`, then pick its tools in the Chat tools menu.
