@@ -2,8 +2,12 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.offlineprotocol/hosted",
   "title": "Offline Protocol (hosted)",
+  "repository": {
+    "url": "https://github.com/Offline-Protocol/offline-protocol-agent-plugins",
+    "source": "github"
+  },
   "description": "Offline Protocol packages, workflows and integration guides over HTTPS. Read-only.",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "websiteUrl": "https://www.offlineprotocol.com/docs/tools/overview",
   "icons": [
     {

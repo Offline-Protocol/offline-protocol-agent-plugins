@@ -1,6 +1,6 @@
 {
   "name": "offline-protocol",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Build local device workflows with Offline Protocol. Find SDK packages, read integration guides, plan an implementation, and scaffold a project.",
   "author": {
     "name": "Offline Protocol",
@@ -14,8 +14,8 @@
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Offline Protocol",
-    "shortDescription": "Build apps that work offline",
-    "longDescription": "Build with Offline Protocol from Codex. A local MCP server from the published Offline Protocol CLI lets the agent search packages and workflows, resolve installs for React Native and web targets, read integration guides, and scaffold or integrate projects. It does not discover or control physical devices.",
+    "shortDescription": "Build local device workflows",
+    "longDescription": "Build with Offline Protocol from Codex. A local MCP server from the published Offline Protocol CLI lets the agent search packages and workflows, resolve installs for React Native, web, Python and Rust targets and the native Swift and Android previews, read integration guides, and scaffold or integrate projects. It does not discover or control physical devices.",
     "developerName": "Offline Protocol",
     "category": "Productivity",
     "capabilities": ["Read", "Write"],

@@ -25,7 +25,7 @@
       "--",
       "npx",
       "-y",
-      "@offline-protocol/cli@0.2.6",
+      "@offline-protocol/cli@0.2.7",
       "mcp",
       "serve"
     ],
