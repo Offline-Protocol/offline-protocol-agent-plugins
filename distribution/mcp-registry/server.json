@@ -3,7 +3,7 @@
   "name": "com.offlineprotocol/cli",
   "title": "Offline Protocol",
   "description": "Find Offline Protocol SDK packages, read integration guides, plan and scaffold local apps.",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "websiteUrl": "https://www.offlineprotocol.com/docs/tools/overview",
   "repository": {
     "url": "https://github.com/Offline-Protocol/offline-protocol-agent-plugins",
@@ -21,7 +21,7 @@
       "registryType": "npm",
       "registryBaseUrl": "https://registry.npmjs.org",
       "identifier": "@offline-protocol/cli",
-      "version": "0.2.7",
+      "version": "0.2.8",
       "runtimeHint": "npx",
       "transport": {
         "type": "stdio"
