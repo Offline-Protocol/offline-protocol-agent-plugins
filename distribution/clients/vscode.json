@@ -5,7 +5,7 @@
       "command": "npx",
       "args": [
         "-y",
-        "@offline-protocol/cli@0.2.7",
+        "@offline-protocol/cli@0.2.8",
         "mcp",
         "serve"
       ]

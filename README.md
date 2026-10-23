@@ -7,7 +7,7 @@ packages, read integration guides and workflows, plan an implementation, and
 scaffold or integrate a project on your machine.
 
 Every configuration runs the local MCP server from the published Offline
-Protocol CLI, `npx -y @offline-protocol/cli@0.2.7 mcp serve`, or
+Protocol CLI, `npx -y @offline-protocol/cli@0.2.8 mcp serve`, or
 connects to the hosted MCP server at `https://mcp.offlineprotocol.com/mcp`.
 The tools help you build an application. They do not discover nearby devices,
 operate a mesh or control live hardware.
@@ -23,7 +23,7 @@ here; pull requests to this repository are reviewed and applied upstream.
 ## Requirements
 
 Node.js 18 or later with npx. The first run downloads the pinned CLI
-(`@offline-protocol/cli@0.2.7`) from npm. Local tools need no Offline
+(`@offline-protocol/cli@0.2.8`) from npm. Local tools need no Offline
 Protocol account and send no telemetry. The hosted server needs an application
 API key and its application ID from https://dev.offlineprotocol.com.
 
@@ -46,7 +46,7 @@ codex plugin add offline-protocol@offline-protocol
 Or add only the MCP server:
 
 ```bash
-codex mcp add offline-protocol -- npx -y @offline-protocol/cli@0.2.7 mcp serve
+codex mcp add offline-protocol -- npx -y @offline-protocol/cli@0.2.8 mcp serve
 ```
 
 ### Cursor
@@ -68,7 +68,7 @@ gemini extensions install https://github.com/Offline-Protocol/offline-protocol-a
 ### VS Code with GitHub Copilot
 
 ```bash
-code --add-mcp '{"name":"offline-protocol","type":"stdio","command":"npx","args":["-y","@offline-protocol/cli@0.2.7","mcp","serve"]}'
+code --add-mcp '{"name":"offline-protocol","type":"stdio","command":"npx","args":["-y","@offline-protocol/cli@0.2.8","mcp","serve"]}'
 ```
 
 For one workspace, copy `distribution/clients/vscode.json` to `.vscode/mcp.json`.
@@ -76,7 +76,7 @@ For one workspace, copy `distribution/clients/vscode.json` to `.vscode/mcp.json`
 ### Cline
 
 ```bash
-cline mcp install offline-protocol -- npx -y @offline-protocol/cli@0.2.7 mcp serve
+cline mcp install offline-protocol -- npx -y @offline-protocol/cli@0.2.8 mcp serve
 ```
 
 ### Devin
@@ -88,7 +88,7 @@ devin plugins install Offline-Protocol/offline-protocol-agent-plugins#plugins/of
 ```
 
 Devin (web): add a custom MCP server with transport stdio, command `npx` and
-arguments `-y @offline-protocol/cli@0.2.7 mcp serve`. Devin Desktop:
+arguments `-y @offline-protocol/cli@0.2.8 mcp serve`. Devin Desktop:
 `distribution/clients/devin-desktop.json`.
 
 ### Any other MCP client
@@ -100,7 +100,7 @@ Use this server definition (also in `distribution/clients/mcp-stdio.json`):
   "mcpServers": {
     "offline-protocol": {
       "command": "npx",
-      "args": ["-y", "@offline-protocol/cli@0.2.7", "mcp", "serve"]
+      "args": ["-y", "@offline-protocol/cli@0.2.8", "mcp", "serve"]
     }
   }
 }
