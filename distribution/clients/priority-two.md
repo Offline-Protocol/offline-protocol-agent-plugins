@@ -1,6 +1,6 @@
 # Priority-two client setup
 
-Each file here connects one client to the Offline Protocol developer MCP. Local files run `npx -y @offline-protocol/cli@0.2.8 mcp serve` and need no credentials. Hosted files use `https://mcp.offlineprotocol.com/mcp` with an application API key and the matching application id; hosted mode has no `scaffold_project`, `integrate_packages` or `init_project`. Never commit real keys.
+Each file here connects one client to the Offline Protocol developer MCP. Local files run `npx -y @offline-protocol/cli@0.2.9 mcp serve` and need no credentials. Hosted files use `https://mcp.offlineprotocol.com/mcp` with an application API key and the matching application id; hosted mode has no `scaffold_project`, `integrate_packages` or `init_project`. Never commit real keys.
 
 ## Continue
 
@@ -20,7 +20,7 @@ Each file here connects one client to the Offline Protocol developer MCP. Local 
 - Local: `devin-desktop.json`. Hosted: `devin-desktop-hosted.json`.
 - The legacy Cascade agent and the Devin Local agent (default in new Devin Desktop tabs) both read `~/.config/devin/mcp_config.json` (`%APPDATA%\devin\mcp_config.json` on Windows). The Devin CLI also reads `.devin/mcp_config.json` and the gitignored `.devin/mcp_config.local.json`.
 - The hosted file uses `url` (accepted by Cascade, required by the Devin CLI) and `${env:...}` interpolation, which Cascade documents for `headers`. For the Devin CLI, prefer literal values in `.devin/mcp_config.local.json`.
-- Devin CLI shortcut for local mode: `devin mcp add -s user offline-protocol -- npx -y @offline-protocol/cli@0.2.8 mcp serve`.
+- Devin CLI shortcut for local mode: `devin mcp add -s user offline-protocol -- npx -y @offline-protocol/cli@0.2.9 mcp serve`.
 - Devin Local asks for approval before each MCP tool call by default. Cascade has a 100-tool limit across all servers.
 
 ## Devin (cloud)
@@ -32,7 +32,7 @@ Customize, MCPs, Add custom MCP (needs the Manage MCP Servers permission):
 | Server name | Offline Protocol | Offline Protocol (hosted) |
 | Transport | STDIO | HTTP (Streamable HTTP) |
 | Command / URL | `npx` | `https://mcp.offlineprotocol.com/mcp` |
-| Arguments | `-y @offline-protocol/cli@0.2.8 mcp serve` | |
+| Arguments | `-y @offline-protocol/cli@0.2.9 mcp serve` | |
 | Authentication | none | Auth Header: `Authorization` = `Bearer <application API key>` |
 | Headers | | `x-app-id` = `<application id>` |
 

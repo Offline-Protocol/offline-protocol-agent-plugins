@@ -1,5 +1,5 @@
 name: Offline Protocol
-version: 0.2.8
+version: 0.2.9
 schema: v1
 mcpServers:
   - name: Offline Protocol
@@ -7,6 +7,6 @@ mcpServers:
     command: npx
     args:
       - "-y"
-      - "@offline-protocol/cli@0.2.8"
+      - "@offline-protocol/cli@0.2.9"
       - mcp
       - serve
