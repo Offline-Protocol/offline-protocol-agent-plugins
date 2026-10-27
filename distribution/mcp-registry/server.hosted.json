@@ -7,7 +7,7 @@
     "source": "github"
   },
   "description": "Offline Protocol packages, workflows and integration guides over HTTPS. Read-only.",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "websiteUrl": "https://www.offlineprotocol.com/docs/tools/overview",
   "icons": [
     {
