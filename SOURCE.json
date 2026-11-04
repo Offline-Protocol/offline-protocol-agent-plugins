@@ -2,7 +2,7 @@
   "repository": "Offline-Protocol/offline-protocol-agent-plugins",
   "source": {
     "repository": "Offline-Protocol/CLI",
-    "commit": "c98975a868004f8e2f7bb942a67b9978c1582818"
+    "commit": "53b2ebe94352900ec485ac1ba7d2eb5024c1e04f"
   },
   "cliPackage": "@offline-protocol/cli@0.3.1",
   "generator": "scripts/export-agent-plugins.mjs",
