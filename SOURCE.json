@@ -2,7 +2,7 @@
   "repository": "Offline-Protocol/offline-protocol-agent-plugins",
   "source": {
     "repository": "Offline-Protocol/CLI",
-    "commit": "df32363b929581812ff26544d2b917d5fc9f241c"
+    "commit": "4076fc4a1b6bf0c250ecbb45c1a85faca447363c"
   },
   "cliPackage": "@offline-protocol/cli@0.2.9",
   "generator": "scripts/export-agent-plugins.mjs",
@@ -41,6 +41,6 @@
     "plugins/offline-protocol/assets/logo.png": "8268382b80cd9e25a1509a1accdde7feae2233fd91bd5f041069d7fffcd8ade5",
     "plugins/offline-protocol/mcp.json": "4e23e03e9f73ee6e8a438285ce5a4d7e1c58011a17e636515808a16f737b30c7",
     "plugins/offline-protocol/plugin.json": "03909cab4db891cc751318e15892ecc0f946d3d3b45fd77203f8f5b494646327",
-    "plugins/offline-protocol/skills/build-with-offline-protocol/SKILL.md": "5d5731be0a4b11f18b0f003b081bfdf40f398c6a12cbe71b080eb09084296cf2"
+    "plugins/offline-protocol/skills/build-with-offline-protocol/SKILL.md": "99c9348bbf8e9d4860cc044311bc1c66c57257eba190824655410f32394e0f49"
   }
 }
